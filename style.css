@@ -1,0 +1,43 @@
+.intro{
+    display: inline-flex;
+    justify-items:center;
+    align-items: center;
+    width: 100%;
+}
+.viajes{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 9px;
+    width: 100px;
+    
+}
+.img-1{
+    max-width: 200%;
+}
+.r-intro{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-left: 700px;
+    z-index:15px;
+}
+.icono{
+    margin-left: 15px;
+    width: 40px;
+}
+.linea-1{
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    font-family: "Poppins", sans-serif;
+}
+.nav{
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+.top-menu{
+    margin: 10px;
+}
