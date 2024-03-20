@@ -33,11 +33,70 @@
     font-family: "Poppins", sans-serif;
 }
 .nav{
-    display: inline-flex;
+    display: flex;
     align-items: center;
     width: 100%;
     justify-content: space-around;
+    flex-direction: row;
 }
 .top-menu{
     margin: 10px;
+    justify-content: space-between;
+}
+.link{
+    margin: 10px;
+}
+.btn-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 60px;
+}
+.contenido-top{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 360px;
+}
+.btn{
+    text-align: center;
+    color: white;
+    background-color: greenyellow;
+    padding: 15px;
+    border: none;
+}
+.card-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+}
+.card{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    margin: 20px;
+    padding: 0px;
+}
+.img-card{
+    width:100%;
+    height: auto;
+}
+.title-card{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: -10px;
+}
+.p-card{
+    font-size: 20px;
+    font-weight: 100;
+}
+.sub-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.precio{
+    text-align: left;
 }
