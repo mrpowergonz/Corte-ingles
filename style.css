@@ -1,30 +1,39 @@
-.intro{
-    display: inline-flex;
-    justify-items:center;
-    align-items: center;
-    width: 100%;
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
-.viajes{
+header { 
     display: flex;
-    align-items: flex-start;
-    margin-left: 9px;
-    width: 100px;
-    
-}
-.img-1{
-    max-width: 200%;
-}
-.r-intro{
-    display: flex;
-    align-items:center;
     justify-content: space-between;
-    margin-left: 700px;
-    z-index:15px;
+    align-items: center;
+    padding: 10px 0;
 }
-.icono{
-    margin-left: 15px;
-    width: 40px;
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
+
+.nav img {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+.logo-1{
+    width: 175px;
+    height: auto;
+    margin:10px;
+}
+
+.nav__item {
+    margin-left: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: rgb(76, 76, 76);
+}
+
 .linea-1{
     border: 0;
     height: 0;
@@ -99,4 +108,39 @@
 }
 .precio{
     text-align: left;
+}
+.article{
+    margin: 50px;
+    padding:20px;
+    background-color: white;
+}
+.mini-icon{
+    width: 20px;
+}
+.icons-down{
+    display: inline-flex;
+    margin:20px;
+    justify-content: space-between;
+}
+.anuncios{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+    gap:20px;
+}
+.anuncios img {
+    width: 30%;
+}
+.end-section{
+    display: flex;
+    justify-content: space-between;
+
+}
+.contact{
+    
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+
 }
